@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.6",
+    "@hashgraph/hashconnect": "^1.24.0",
+    "@hashgraph/sdk": "^2.69.0",
+    "@reown/appkit": "^1.7.17",
+    "@reown/appkit-adapter-wagmi": "^1.7.17",
+    "@tanstack/react-query": "^5.83.0",
+    "@wagmi/connectors": "^5.9.0",
+    "@wagmi/core": "^2.18.0",
+    "@walletconnect/modal": "^2.7.0",
+    "@walletconnect/sign-client": "^2.21.5",
+    "@zxing/library": "^0.21.3",
+    "axios": "^1.7.7",
+    "html5-qrcode": "^2.3.8",
+    "next": "^15.4.5",
+    "qrcode.react": "^3.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "uuid": "^11.1.0",
+    "viem": "^2.33.1",
+    "wagmi": "^2.16.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-qr-reader": "^2.1.7",
+    "@types/trusted-types": "^2.0.7",
+    "@types/uuid": "^10.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
